@@ -1,0 +1,34 @@
+A. Compiling and executing the code
+
+1. The default mode is to compile for a sequential execution and using the standard deviation of the higher order solution for convergence. The CPU GPU transfer is done synchronously.
+
+   To compile in this mode at command line type
+   
+   $> make CFLAGS=-DDO_GPU
+
+   To run the code
+   
+   $> ./qdmc
+
+2. Run-time options:
+   The physical properties of the system can be defined from the command line by using the following options:
+
+     --help                display this help and exit
+     --version             output version information and exit
+     --particles           the number of particles to simulate
+     --numcells            the number of discrete simulation cells
+     --runwidth            run width for averaging
+     --syslength           the length of the system
+     --tolerance           end-condition tolerance
+     --tolstd              end-condition tolerance (standard deviation)
+     --numiters            number of iterations to run if stopping condition is unsatisfied
+     --sigs                Scattering cross-section to be used
+     --sigt                Total cross-section to be used
+     -s                    Minimize the data printed to screen
+
+   
+
+3. To build an asynchronous version of the code compile as follows
+   
+   $> make CFLAGS=-DDO_ASYNC
+       

@@ -1,0 +1,30 @@
+A. Compiling and executing the code
+
+1. The default mode is to compile for a sequential execution 
+
+   To compile in this mode at command line type
+   
+   $> make
+
+   To run the code
+   
+   $> ./cmc
+
+2. Run-time options:
+   The physical properties of the system can be defined from the command line by using the following options:
+
+  --help                display this help and exit
+  --version             output version information and exit
+  --particles           the number of particles to simulate
+  --numcellsx           the number of discrete simulation cells in x direction
+  --numcellsy           the number of discrete simulation cells in y direction
+  --syslengthx          the length of the system along x direction
+  --syslengthy          the length of the system along y direction
+  --tolerance           end-condition tolerance
+  --tolstd              end-condition tolerance (standard deviation)
+  --numiters            number of iterations to run if stopping condition is unsatisfied
+
+
+3. To build to use with MPI use the following command 
+   
+   $> make CC=mpicc CFLAGS=-DDO_MPI 
