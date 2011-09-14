@@ -22,4 +22,4 @@ Jeffrey Willert jawiller@ncsu.edu
 Paul Sathre sath6220@cs.vt.edu   
 Han Dong handong32@gmail.com   
 Michael Sullivan mbsullivan@mail.utexas.edu   
-William Taitano   
+William Taitano williamtaitano1208@hotmail.com   
