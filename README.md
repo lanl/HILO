@@ -35,7 +35,7 @@ Authors
 
 Student authors developed code while interns at Los Alamos during the Summer 2011 Co-Design School (http://codesign.lanl.gov)
 
-###### Students
+### Students
 Mahesh Ravishankar ravishan@cse.ohio-state.edu   
 Jeffrey Willert jawiller@ncsu.edu   
 Paul Sathre sath6220@cs.vt.edu   
@@ -43,10 +43,10 @@ Han Dong handong32@gmail.com
 Michael Sullivan mbsullivan@mail.utexas.edu   
 William Taitano williamtaitano1208@hotmail.com   
 
-###### Los Alamos Mentors
-Tim Germann
-Dana Knoll
-Bryan Lally
-Patrick McCormick
-Allen McPherson
-Scott Pakin
+### Los Alamos Mentors
+Tim Germann   
+Dana Knoll   
+Bryan Lally   
+Patrick McCormick   
+Allen McPherson   
+Scott Pakin   
