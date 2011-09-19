@@ -6,8 +6,8 @@ PROGRAM=cmc
 CC = gcc
 CPP = g++
 override CFLAGS += -Wall -msse2 -m64 -O3
-OPENCL_LIBDIR = /usr/lib64/
-OPENCL_INCDIR = /usr/local/cuda/include/
+#OPENCL_LIBDIR = /usr/lib64/
+#OPENCL_INCDIR = /usr/local/cuda/include/
 CFLAGS += -finline-functions -funswitch-loops -fpredictive-commoning -fgcse-after-reload -fipa-cp-clone
 DFLAGS = #-pg -ggdb #-ftree-vectorizer-verbose=6 
 CLIBS = -lm -L/$(OPENCL_LIBDIR) -lOpenCL

@@ -2,7 +2,11 @@ A. Compiling and executing the code
 
 1. The default mode is to compile for a sequential execution and using the standard deviation of the higher order solution for convergence 
 
-   To compile in this mode at command line type
+   To compile in this mode
+   
+   a. Set the Environment variables OPENCL_INCDIR and OPENCL_LIBDIR to point to the directories which have the OpenCL include file and libraries respectively
+   
+   b. At command line type
    
    $> make
 

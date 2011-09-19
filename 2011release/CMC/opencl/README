@@ -1,6 +1,6 @@
 A. Compiling and executing the code
 
-1. The default mode is to compile for a sequential execution and using the standard deviation of the higher order solution for convergence. The CPU GPU transfer is done synchronously.
+1. The default mode is to compile for a sequential execution and using the standard deviation of the higher order solution for convergence 
 
    To compile in this mode
    
@@ -8,11 +8,11 @@ A. Compiling and executing the code
    
    b. At command line type
    
-   $> make CFLAGS=-DDO_GPU
+   $> make
 
    To run the code
    
-   $> ./qdmc
+   $> ./cmc
 
 2. Run-time options:
    The physical properties of the system can be defined from the command line by using the following options:
@@ -32,7 +32,27 @@ A. Compiling and executing the code
 
    
 
-3. To build an asynchronous version of the code compile as follows
+3. To compare with analytical solutions ( using L2 norm for convergence check )
    
-   $> make CFLAGS=-DDO_ASYNC
+   a. Small Problem size : sig_t = 1.0, sig_s = 0.99 , Number of particles = 10000000, Sys Length = 10.0, number of cells = 100
+      
+      To compare the CMC solution with analytical solution build using the command
+
+      $> make CFLAGS=-DL2_2
+      
+      To run the small problem
+
+      $> ./cmc 
+   
+   b. Large Problem size : sig_t = 10.0, sig_s = 9.999, Number of particles = 10000000, Sys Length = 100.0, number of cells = 100
+      
+      To compare the QDA-MC solution with analytical solution build as follows :
+      
+      $> make CFLAGS=-DL2_1
+
+      To run the large problem
+
+      $> ./cmc --particles 1000000 --sigt 10.0 --sig 9.999 --syslength 100 --numcells 100 --tolstd 0.01
+
+   
        

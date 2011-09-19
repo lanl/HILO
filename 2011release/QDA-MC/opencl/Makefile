@@ -5,8 +5,8 @@
 PROGRAM=qdmc
 CC = gcc
 CPP = g++
-OPENCL_LIBDIR=/usr/lib64
-OPENCL_INCDIR=/usr/local/cuda/include
+#OPENCL_LIBDIR= /usr/lib64
+#OPENCL_INCDIR= /usr/local/cuda/include
 override CFLAGS += -Wall -g -msse2 -m64 -O3
 CFLAGS += -finline-functions -funswitch-loops -fpredictive-commoning -fgcse-after-reload -fipa-cp-clone
 DFLAGS = #-pg -ggdb #-ftree-vectorizer-verbose=6 
