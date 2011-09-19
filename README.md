@@ -25,6 +25,7 @@ decisions that were critical to the co-design process.
 License
 -------
 
+This code is released under LA-CC-11-076. The license is
 BSD-ish with a "modifications must be indicated" clause.  See
 <http://github.com/losalamos/HILO/blob/master/LICENSE> for the full
 text.
