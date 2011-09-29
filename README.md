@@ -30,6 +30,11 @@ BSD-ish with a "modifications must be indicated" clause.  See
 <http://github.com/losalamos/HILO/blob/master/LICENSE> for the full
 text.
 
+Documentation
+-------------
+
+A Los Alamos technical report (LA-UR 11-05596) has been written for the project and
+is available in this repository as a [PDF file](http://github.com/losalamos/HILO/blob/master/doc/report-with-cover.pdf).
 
 Authors
 -------
