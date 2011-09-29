@@ -34,7 +34,7 @@ Documentation
 -------------
 
 A Los Alamos technical report (LA-UR 11-05596) has been written for the project and
-is available in this repository as a [PDF file](http://github.com/losalamos/HILO/blob/master/doc/report-with-cover.pdf).
+is available in this repository as a [PDF file](http://github.com/losalamos/HILO/blob/master/2011release/doc/report-with-cover.pdf).
 
 Authors
 -------
